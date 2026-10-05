@@ -1,8 +1,10 @@
-let number = 3;
-if(number < 5){
-    console.log("The number reassigns to be 0");
+let number = 1;
+if((!number>=0)||(num<=10)){
+    console.log("Invalid number")
+}else if(number < 5){
+    console.log(number);
 }else if(number > 5){
-    console.log("The number reassigns to be 10");
+    console.log(number);
 }else{
-    console.log("The number doesn't need to reassign");
+    console.log(number);
 }
